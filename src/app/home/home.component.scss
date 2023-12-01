@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.ant-input-number {
+  width: 100%;
+}
+
+.error-message {
+  color: #d62828;
+}
+
+.btn-score {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
