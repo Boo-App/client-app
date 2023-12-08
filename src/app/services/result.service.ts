@@ -7,8 +7,7 @@ import { DataScore, Score } from '../types/score';
 export class ResultService {
   constructor(private http: HttpClient) {}
 
-  msScoreUrl = 'https://ms-score.onrender.com';
-
+  msScoreUrl = 'https://ms-score-jafg.onrender.com';
   addScore(score: Score) {
     const authToken = localStorage.getItem('token');
     const email = localStorage.getItem('email');
